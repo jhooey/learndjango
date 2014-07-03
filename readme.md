@@ -1,6 +1,9 @@
 ##Virtualenv
 source ~/git/learndjango/venv/bin/activate
 
+pip install https://www.djangoproject.com/download/1.7c1/tarball/
+pip install psycopg2
+pip install --upgrade selenium            #for testing
 
 ##Database
 
