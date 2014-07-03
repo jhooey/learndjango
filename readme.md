@@ -13,3 +13,10 @@ createuser -P learndjango
 P: learndjangoadmin
 psql
 GRANT ALL PRIVILEGES ON DATABASE learndjango TO learndjango;
+
+You have installed Django's auth system, and don't have any superusers defined.
+Would you like to create one now? (yes/no): yes
+Username: learndjango
+Email address: jhooey@gmail.com
+Password: learndjangoadmin
+Superuser created successfully.
